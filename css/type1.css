@@ -1,6 +1,9 @@
 #hd a {
   text-decoration: none;
 }
+#hd .gnb .d1:hover ul {
+  display: block;
+}
 #hd .gnb .d1 .gnb_d1_a {
   color: black;
   font-size: 1.2em;
@@ -10,6 +13,7 @@
   white-space: nowrap;
   left: -2rem;
   background-color: black !important;
+  display: none;
 }
 #hd .gnb .d1 ul.leftul {
   left: -2rem;
